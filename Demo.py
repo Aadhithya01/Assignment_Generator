@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import openai
 
 
-openai.api_key = "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"
+openai.api_key = "YOUR API KEY"
 messages = [
     {"role": "system", "content": "You rephrase the given text"},
 ]
